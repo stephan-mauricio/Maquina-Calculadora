@@ -1,0 +1,48 @@
+body {
+    font: normal 20pt arial;
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+}
+
+.div-primaria {
+    width: 328px;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid #08c781;
+    box-shadow: 8px 8px 6px #5d9b84;
+}
+
+p.calctxt {
+    margin: 0;
+}
+
+input.primeiroinput {
+    height: 25px;
+    border: none;
+}
+
+input.formulario_input {
+    width: 45px;
+}
+
+form.formulario_primeiro--formulario {
+    width: 328px;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid #08c781;
+    box-shadow: 8px 8px 6px #5d9b84;
+}
+
+ul.formulario_lista--ordem {
+    width: 100px;
+    padding: 20px;
+    margin: 0;
+}
+
+li.formulario--item{
+    display: inline;
+    list-style-type: none;
+
+}
+
