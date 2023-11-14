@@ -43,6 +43,9 @@ ul.formulario_lista--ordem {
 li.formulario--item{
     display: inline;
     list-style-type: none;
+}
 
+li {
+    list-style-type: none;
 }
 
