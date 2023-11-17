@@ -1,19 +1,21 @@
 body {
-    font: normal 20pt arial;
-    background-color: cadetblue;
-    color: #fff;
-    text-align: center;
+    font: normal 25pt arial;
 }
 
 .div-primaria {
     width: 328px;
     text-align: center;
-    margin: 0 auto;
+    margin: 20% auto 0;
+
     border: 3px solid #08c781;
-    box-shadow: 8px 8px 6px #5d9b84;
+    box-shadow: 5px 5px 15px  #5d9b84;
 }
 
 p.calctxt {
+    color: #5d9b84;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -31,21 +33,40 @@ form.formulario_primeiro--formulario {
     text-align: center;
     margin: 0 auto;
     border: 3px solid #08c781;
-    box-shadow: 8px 8px 6px #5d9b84;
+    box-shadow: 8px 8px 14px #5d9b84;
 }
 
 ul.formulario_lista--ordem {
     width: 100px;
-    padding: 20px;
+    padding: 10px;
     margin: 0;
+    border: 1px solid #08c781;
+
 }
 
 li.formulario--item{
-    display: inline;
     list-style-type: none;
 }
 
 li {
     list-style-type: none;
+}
+
+button {
+    padding: 1px;
+}
+
+#mostrar {
+    border: 1px solid #08c781;
+    padding: inherit;
+    float: right;
+    margin-top: -220px;
+    margin-right: 20px;
+}
+
+footer.rodape {
+    color: #5d9b84;
+    text-align: center;
+
 }
 
